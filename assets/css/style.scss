@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.noti-icon{
+  background: url('../img/header/can-icon.svg') no-repeat;
+  height: 19.5px;
+  width:16px;
+  position: relative;
+  &::after{
+    content: "";
+    height:8px;
+    width:8px;
+    background-color: red;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 50%;
+    right: 0;
+  }
+ }
+
+      
+  .arrow-icon{
+      
+     position: relative;
+       &::after{
+        content: "";
+        width:10px;
+        height:5px;
+        background:url('../img/header/arrow-icon.svg') no-repeat center;
+        position: absolute;
+        transform: scale(1.5);
+       }
+
+    }
+    .search-icon{
+      
+        position: relative;
+        
+          &::after{
+           content: "";
+           width:25px;
+           height:25px;
+           background:url('../img/header/search-icon.svg') no-repeat center;
+           position: absolute;
+           top:50%;
+           transform: translateY(-50%);
+          
+           
+           
+          }
+   
+       }
+
+      
+
+.dasborad-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/dashboard.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   } 
+   .people-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/people.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   }           
+  
+   .project-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/project.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   } 
+   .celender-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/celender.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   } 
+   .traning-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/traning.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   } 
+  
+   .time-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+     display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/time.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   }
+   .report-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+     display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/report.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   }
+   .admin-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+     display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/svg.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   }
+   .help-ico{
+    position: relative;
+    height: 22px;
+    width: 22px;
+     display:inline-block;
+  
+    &::after{
+       content: "";
+       height: 20px;
+       width: 20px;
+       background: url('../img/left-aside/help.svg') no-repeat;
+        position: absolute;
+        inset: 0;
+        filter: contrast(0);
+    }
+   }
+   .left-aside-ul{
+  
+      li{
+        &:hover{
+        filter: invert(41%) sepia(90%) saturate(1854%) hue-rotate(198deg) brightness(95%) contrast(96%);
+        background-color: #2f81ed2f;
+      } 
+    }
+   }
+  
+  
+  .row-1-button-wrapper{
+     height:414px;
+  }
+  .box-height{
+   height: 414px;
+  }

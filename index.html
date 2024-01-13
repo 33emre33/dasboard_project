@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasboard Project</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-200">
+  <header>
+    <div class="grid-rows-1	">
+      <div class="header-wrapper grid grid-cols-12 bg-white">
+        <div class="header-start-item   py-3  px-2 lg:px-4   flex  justify-between items-center col-span-12 lg:col-span-2 ">
+          <div class="profile-wrapper flex  items-center gap-3  justify-between">
+            <div class="profil-item flex items-center gap-3 ps-2">
+              <img src="assets/img/header/profil.jpg" class="rounded-full ">
+              <div class="profile-content font-semibold text-lg">Jane S.</div>
+            </div>
+
+          </div>
+          <div class="arrow-icon-menu pe-8 lg:pe-0">
+            <div class="arrow-icon">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="header-end-item  py-3 lg:py-5 px-7 col-span-12 lg:col-span-10 flex items-center justify-between bg-slate-100 lg:bg-white">
+          <div class="search-wrapper ps-3">
+
+
+
+
+            <form action="#?" method="post" class="flex gap-8">
+              <button type="submit" class="search-icon"></button>
+              <input type="search" name="pageInSearch" placeholder="Quick search" class="bg-transparent focus:outline-none text-white ">
+
+            </form>
+
+          </div>
+          <div class="noti-wrapper">
+            <div class="noti-icon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <section>
+    <div class="grid-rows-1 mt-3 px-3 ">
+      <div class="grid grid-cols-12 gap-3 ">
+        <div class="left-aside-wrapper col-span-6 lg:col-span-2 bg-white  p-3 lg:p-5 rounded">
+          <ul class="flex flex-col gap-1 font-semibold text-xs left-aside-ul">
+            <li class="flex gap-3  rounded p-2 items-center"><i class="dasborad-ico"></i><a href="#?" target="_self" rel="dofallow">Dasboard</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="people-ico"></i><a href="#?" target="_self" rel="dofallow">People</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="project-ico"></i><a href="#?" target="_self" rel="dofallow">Projects</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="celender-ico"></i><a href="#?" target="_self" rel="dofallow">Calendar</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="traning-ico"></i><a href="#?" target="_self" rel="dofallow">Training</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="time-ico"></i><a href="#?" target="_self" rel="dofallow">Timesheet</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="report-ico"></i><a href="#?" target="_self" rel="dofallow">Reports</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="admin-ico"></i><a href="#?" target="_self" rel="dofallow">Adminis.</a></li>
+            <li class="flex gap-3  rounded p-2 items-center"><i class="help-ico"></i><a href="#?" target="_self" rel="dofallow">Help</a></li>
+
+          </ul>
+        </div>
+        <div class="col-span-6 lg:order-last lg:col-span-2  p-3  rounded flex justify-center items-center lg:items-start">
+          <div class="row-1-button-wrapper  flex gap-3 text-sm items-center p-2 bg-green-600 justify-center h-auto w-full text-white font-semibold rounded-2xl">
+            <div class="text-lg">+</div>
+            <div>ADD WIDGET</div>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
+          <div>Here Charts</div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
+          Here Chartss
+        </div>
+
+      </div>
+    </div>
+
+    <div class="grid-rows-1 grid grid-cols-12 mt-3 px-3 box-border gap-3 ">
+      <div class="order-last lg:order-first  col-span-12  lg:col-span-2   h-full flex items-end ">
+        <div class="footer-content bg-white rounded-xl flex flex-col items-center p-3 w-full">
+          <div class="content-wrapper-footer font-bold">CAMIOCA</div>
+          <div class="version-wrapper-footer font-thin text-gray-500">Version: 1.0.0.11</div>
+        </div>
+      </div>
+      <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
+        Here Charts
+      </div>
+      <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
+        Here Charts
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>

@@ -7,6 +7,8 @@
   <title>Dasboard Project</title>
   <link rel="stylesheet" href="assets/css/style.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
   <script>
     tailwind.config = {
       theme: {
@@ -83,12 +85,14 @@
             <div>ADD WIDGET</div>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
-          <div>Here Charts</div>
+        <div class="col-span-12 lg:col-span-4 bg-white p-5  rounded flex items-center justify-center  text-lg row-1-button-wrapper">
+          <div id="chart1" >
+          </div>
         </div>
 
         <div class="col-span-12 lg:col-span-4 bg-white  p-5 rounded flex items-center justify-center  text-lg row-1-button-wrapper">
-          Here Chartss
+          <div id="chart2" >
+          </div>
         </div>
 
       </div>
@@ -110,6 +114,7 @@
 
     </div>
   </section>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
